@@ -5,7 +5,11 @@ module.exports = {
     fontFamily:{
       'sans': ['Poppins', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+        backgroundImage: {
+        "home": "url('../assets/bg.png')"
+      }
+    },
   },
   plugins: [],
 }
